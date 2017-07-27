@@ -1,6 +1,6 @@
 # infrastructure-as-code resources
-tools, frameworks, techniques in platforms and infrastructure-as-code
-
+<p>tools, frameworks, techniques in platforms and infrastructure-as-code</p>
+means
 
 ##### Working with IaaS or Cloud providers
 
