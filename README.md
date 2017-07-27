@@ -1,6 +1,6 @@
 # infrastructure-as-code resources
 <p>tools, frameworks, techniques in platforms and infrastructure-as-code</p>
-means
+:cloud:  via a site or api
 
 ##### Working with IaaS or Cloud providers
 
