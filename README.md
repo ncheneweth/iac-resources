@@ -2,26 +2,35 @@
 <p>tools, frameworks, techniques in platforms and infrastructure-as-code</p>
 :cloud:  via a site or api
 
-##### Working with IaaS or Cloud providers
+#### Working with IaaS or Cloud providers
 
-terraform<br />
-boto3
-
-
-##### servers and server virtualization
-
-vagrant
-packer :cloud:
+[terraform](https://www.terraform.io)<br />
+[boto3](https://boto3.readthedocs.io/en/latest/)<br />
 
 
-##### container oriented
+#### servers and server virtualization
 
-[ksonnet](http://ksonnet.heptio.com)
+[vagrant](https://www.vagrantup.com)<br />
+[packer](https://www.packer.io)<br />
+[virtualbox](https://www.virtualbox.org)<br />
 
 
+#### container oriented
 
-##### misc
+[docker](https://docs.docker.com)<br />
+[ksonnet](http://ksonnet.heptio.com)<br />
+[kubicorn](https://github.com/kris-nova/kubicorn)<br />
+[helm](https://helm.sh)<br />
+[prometheus]
+[EfK]
+[]
+<br /><br />
+[containership](https://www.containership.io) :cloud:<br />
 
-[jsonnet](http://jsonnet.org)
+
+#### misc
+
+[jsonnet](http://jsonnet.org)<br />
+[circle]
 
 an evolving list - nic cheneweth
