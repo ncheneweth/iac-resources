@@ -1,16 +1,16 @@
 # infrastructure-as-code resources
-<p>tools, frameworks, techniques in platforms and infrastructure-as-code</p>
+tools, frameworks, techniques in platforms and infrastructure-as-code. 
 :cloud:  via a site or api
 
 #### Working with IaaS or Cloud providers
 
-[terraform](https://www.terraform.io)<br />
-[boto3](https://boto3.readthedocs.io/en/latest/)<br />
+[terraform](https://www.terraform.io)  
+[boto3](https://boto3.readthedocs.io/en/latest/)  
 
 
 #### servers and server virtualization
 
-[vagrant](https://www.vagrantup.com)<br />
+[vagrant](https://www.vagrantup.com)  
 [packer](https://www.packer.io)<br />
 [virtualbox](https://www.virtualbox.org)<br />
 
