@@ -11,39 +11,39 @@ tools, frameworks, techniques in platforms and infrastructure-as-code.
 #### servers and server virtualization
 
 [vagrant](https://www.vagrantup.com)  
-[packer](https://www.packer.io)
+[packer](https://www.packer.io)  
 [virtualbox](https://www.virtualbox.org)  
 
 
 #### containers and orchestration
 
 [docker](https://docs.docker.com)  
-[kubernetes](https://kubernetes.io)
-[linkerd](https://linkerd.io)
-[grpc](https://grpc.io)
-[coreDNS](https://coredns.io)
+[kubernetes](https://kubernetes.io)  
+[linkerd](https://linkerd.io)  
+[istio](https://github.com/istio/istio)
+[spiffe](https://spiffe.io)
+[grpc](https://grpc.io)  
+[coreDNS](https://coredns.io)  
 
 [helm](https://helm.sh)  
-[prometheus](https://prometheus.io)
-[fluentd](https://www.fluentd.org)
+[prometheus](https://prometheus.io)  
+[fluentd](https://www.fluentd.org)  
 
-
-
-#### related SaaS providers
 
 [containership](https://www.containership.io) :cloud:  
-
+[circleci](https://circleci.com)  :cloud:  
 
 #### Testing
 
-[inspec]
-[awspec]
-[sonabouy]
+[inspec](https://www.inspec.io)  
+[awspec](https://github.com/k1LoW/awspec)  
+[sonabouy](https://github.com/heptio/sonobuoy)
 
 #### misc
 
+[ark](https://github.com/heptio/ark)
 [ksonnet](http://ksonnet.heptio.com)  
 [jsonnet](http://jsonnet.org)  
-[circle]
+
 
 an evolving list...
