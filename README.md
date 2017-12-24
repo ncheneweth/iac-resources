@@ -11,26 +11,39 @@ tools, frameworks, techniques in platforms and infrastructure-as-code.
 #### servers and server virtualization
 
 [vagrant](https://www.vagrantup.com)  
-[packer](https://www.packer.io)<br />
-[virtualbox](https://www.virtualbox.org)<br />
+[packer](https://www.packer.io)
+[virtualbox](https://www.virtualbox.org)  
 
 
-#### container oriented
+#### containers and orchestration
 
-[docker](https://docs.docker.com)<br />
-[ksonnet](http://ksonnet.heptio.com)<br />
-[kubicorn](https://github.com/kris-nova/kubicorn)<br />
-[helm](https://helm.sh)<br />
-[prometheus]
-[EfK]
-[]
-<br /><br />
-[containership](https://www.containership.io) :cloud:<br />
+[docker](https://docs.docker.com)  
+[kubernetes](https://kubernetes.io)
+[linkerd](https://linkerd.io)
+[grpc](https://grpc.io)
+[coreDNS](https://coredns.io)
 
+[helm](https://helm.sh)  
+[prometheus](https://prometheus.io)
+[fluentd](https://www.fluentd.org)
+
+
+
+#### related SaaS providers
+
+[containership](https://www.containership.io) :cloud:  
+
+
+#### Testing
+
+[inspec]
+[awspec]
+[sonabouy]
 
 #### misc
 
-[jsonnet](http://jsonnet.org)<br />
+[ksonnet](http://ksonnet.heptio.com)  
+[jsonnet](http://jsonnet.org)  
 [circle]
 
-an evolving list - nic cheneweth
+an evolving list...
