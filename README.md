@@ -33,6 +33,9 @@ tools, frameworks, techniques in platforms and infrastructure-as-code.
 [containership](https://www.containership.io) :cloud:  
 [circleci](https://circleci.com)  :cloud:  
 
+[kops](https://github.com/kubernetes/kops)  
+[kubeadm](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/)  
+
 #### Testing
 
 [inspec](https://www.inspec.io)  
