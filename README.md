@@ -20,8 +20,8 @@ tools, frameworks, techniques in platforms and infrastructure-as-code.
 [docker](https://docs.docker.com)  
 [kubernetes](https://kubernetes.io)  
 [linkerd](https://linkerd.io)  
-[istio](https://github.com/istio/istio)
-[spiffe](https://spiffe.io)
+[istio](https://github.com/istio/istio)  
+[spiffe](https://spiffe.io)  
 [grpc](https://grpc.io)  
 [coreDNS](https://coredns.io)  
 
@@ -37,11 +37,11 @@ tools, frameworks, techniques in platforms and infrastructure-as-code.
 
 [inspec](https://www.inspec.io)  
 [awspec](https://github.com/k1LoW/awspec)  
-[sonabouy](https://github.com/heptio/sonobuoy)
+[sonabouy](https://github.com/heptio/sonobuoy)  
 
 #### misc
 
-[ark](https://github.com/heptio/ark)
+[ark](https://github.com/heptio/ark)  
 [ksonnet](http://ksonnet.heptio.com)  
 [jsonnet](http://jsonnet.org)  
 
