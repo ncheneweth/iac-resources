@@ -7,14 +7,6 @@ tools, frameworks, techniques in platforms and infrastructure-as-code.
 [terraform](https://www.terraform.io)  
 [boto3](https://boto3.readthedocs.io/en/latest/)  
 
-
-#### servers and server virtualization
-
-[vagrant](https://www.vagrantup.com)  
-[packer](https://www.packer.io)  
-[virtualbox](https://www.virtualbox.org)  
-
-
 #### containers and orchestration
 
 [docker](https://docs.docker.com)  
@@ -39,6 +31,12 @@ tools, frameworks, techniques in platforms and infrastructure-as-code.
 [inspec](https://www.inspec.io)  
 [awspec](https://github.com/k1LoW/awspec)  
 [sonabouy](https://github.com/heptio/sonobuoy)  
+
+#### server virtualization
+
+[vagrant](https://www.vagrantup.com)  
+[packer](https://www.packer.io)  
+[virtualbox](https://www.virtualbox.org)  
 
 #### misc
 
