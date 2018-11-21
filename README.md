@@ -1,30 +1,46 @@
 # infrastructure-as-code resources
-tools, frameworks, techniques in platforms and infrastructure-as-code. 
-:cloud:  via a site or api
+tools, frameworks, accelerators in platforms and infrastructure-as-code.  
+
+:cloud:     saas or remote api  
+:wrench:    cli  
+:whale:     deployed  
+:octocat:   pkg, library 
 
 #### Working with IaaS or Cloud providers
 
-[terraform](https://www.terraform.io)  
+[aws-cli] (https://docs.aws.amazon.com/cli/latest/userguide/installing.html)  
 [boto3](https://boto3.readthedocs.io/en/latest/)  
+[gcloud] (https://cloud.google.com/sdk/install)  
+[terraform](https://www.terraform.io)  
 
-#### containers and orchestration
+#### 
+
+[circleci](https://circleci.com)  :cloud:  
+[consul]
+[quay]
+
+#### containers and service orchestration
 
 [docker](https://docs.docker.com)  
 [kubernetes](https://kubernetes.io)  
 [linkerd](https://linkerd.io)  
 [istio](https://github.com/istio/istio)  
 [spiffe](https://spiffe.io)  
-[grpc](https://grpc.io)  
 [coreDNS](https://coredns.io)  
 
-[helm](https://helm.sh)  
+[kops](https://github.com/kubernetes/kops)  
+[kubectl]
+
+#### monitoring, metrics, logs
+
+[datadog]
+[logzio]
 [prometheus](https://prometheus.io)  
 [fluentd](https://www.fluentd.org)  
 
-[circleci](https://circleci.com)  :cloud:  
+#### security and governance
 
-[kops](https://github.com/kubernetes/kops)  
-[kubeadm](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/)  
+[vault]
 
 #### Testing
 
