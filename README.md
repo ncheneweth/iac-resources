@@ -29,8 +29,6 @@ tools, frameworks, techniques in platforms and infrastructure-as-code.
 [prometheus](https://prometheus.io)  
 [fluentd](https://www.fluentd.org)  
 
-
-[containership](https://www.containership.io) :cloud:  
 [circleci](https://circleci.com)  :cloud:  
 
 [kops](https://github.com/kubernetes/kops)  
