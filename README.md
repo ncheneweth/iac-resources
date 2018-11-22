@@ -42,16 +42,18 @@ tools, frameworks, accelerators in platforms and infrastructure-as-code.
 
 [vault](https://vaultproject.io) :wrench: :whale:  
 [twistlock](https://twistlock.com) :wrench: :whale:  
+[anchore](https://anchore.io/) :cloud:  
 [snyk](https://snyk.io/) :wrench: :cloud:  
 [hawkeye](https://github.com/hawkeyesec/scanner-cli) :wrench:  
 [auth0](https://auth0.com) :cloud:  
 [kubernetes-policy-controller](https://github.com/Azure/kubernetes-policy-controller) :octocat:  
+[kube-hunter](https://github.com/aquasecurity/kube-hunter) :wrench:  
 
 #### Testing
 
 [inspec](https://www.inspec.io) :octocat:  
 [awspec](https://github.com/k1LoW/awspec) :octocat:  
-[hadolint](https://github.com/hadolint/hadolint) Dockerfile linting :octocat:  
+[hadolint](https://github.com/hadolint/hadolint) Dockerfile linting :wrench:  
 [sonabouy](https://github.com/heptio/sonobuoy) :whale:  
 [kube-bench](https://github.com/aquasecurity/kube-bench) CIS inspection :wrench:  
 [docker-bench](https://github.com/docker/docker-bench-security) CIS inspection :wrench:  
