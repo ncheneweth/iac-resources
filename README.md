@@ -65,6 +65,8 @@ tools, frameworks, accelerators in platforms and infrastructure-as-code.
 
 #### misc
 
+[nevergreen](https://nevergreen.io)  
+[smashing](https://smashing.github.io)  
 [ark](https://github.com/heptio/ark)  
 [container-structure-test](https://github.com/GoogleContainerTools/container-structure-test)  
 [moby](https://github.com/moby)  
