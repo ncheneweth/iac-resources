@@ -19,13 +19,12 @@ tools, frameworks, accelerators in platforms and infrastructure-as-code.
 #### containers and service orchestration :wrench:
 
 [docker](https://docs.docker.com)  
+[kops](https://github.com/kubernetes/kops)  
 [kubernetes](https://kubernetes.io)  
-[linkerd](https://linkerd.io)  
 [istio](https://github.com/istio/istio)  
 [spiffe](https://spiffe.io)  
 [coreDNS](https://coredns.io)  
-
-[kops](https://github.com/kubernetes/kops)  
+[linkerd](https://linkerd.io)  
 
 #### monitoring, metrics, logs
 
@@ -39,29 +38,33 @@ tools, frameworks, accelerators in platforms and infrastructure-as-code.
 
 [vault](https://vaultproject.io)  
 [twistlock](https://twistlock.com)  
-[anchore](https://anchore.io/)  
 [snyk](https://snyk.io/)  
 [hawkeye](https://github.com/hawkeyesec/scanner-cli)  
 [auth0](https://auth0.com)  
 [kubernetes-policy-controller](https://github.com/Azure/kubernetes-policy-controller)  
 [kube-hunter](https://github.com/aquasecurity/kube-hunter)  
 
-#### Testing
+#### validation
 
-[inspec](https://www.inspec.io)  
-[awspec](https://github.com/k1LoW/awspec)  
-[hadolint](https://github.com/hadolint/hadolint) Dockerfile lint/inspection  
 [sonabouy](https://github.com/heptio/sonobuoy)  
 [kube-bench](https://github.com/aquasecurity/kube-bench) CIS inspection  
 [docker-bench](https://github.com/docker/docker-bench-security) CIS inspection  
-[kubeval](https://github.com/garethr/kubeval) k8 yaml lint/inspection  
-[kube-score](https://github.com/zegl/kube-score) k8 yaml resiliency evaluation 
 
 #### server virtualization
 
 [vagrant](https://www.vagrantup.com)   
 [packer](https://www.packer.io)   
 [virtualbox](https://www.virtualbox.org)  
+
+#### languages, testing, and develop frameworks
+
+[ShellCheck](https://github.com/koalaman/shellcheck) shell script inspection  
+[inspec](https://www.inspec.io)  
+[awspec](https://github.com/k1LoW/awspec)  
+[hadolint](https://github.com/hadolint/hadolint) Dockerfile lint/inspection  
+[kubeval](https://github.com/garethr/kubeval) k8 yaml lint/inspection  
+[kube-score](https://github.com/zegl/kube-score) k8 yaml resiliency evaluation  
+[yamllint](https://pypi.org/project/yamllint/)  
 
 #### misc
 
