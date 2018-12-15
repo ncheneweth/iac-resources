@@ -16,7 +16,7 @@ tools, frameworks, accelerators in platforms and infrastructure-as-code.
 [consul](https://www.consul.io/)  
 [quay](https://quay.io)  
 
-#### containers and service orchestration :wrench:
+#### containers and service orchestration
 
 [docker](https://docs.docker.com)  
 [kops](https://github.com/kubernetes/kops)  
@@ -25,6 +25,8 @@ tools, frameworks, accelerators in platforms and infrastructure-as-code.
 [spiffe](https://spiffe.io)  
 [coreDNS](https://coredns.io)  
 [linkerd](https://linkerd.io)  
+
+[kubectx](https://github.com/ahmetb/kubectx) easy switch context and namespace  
 
 #### monitoring, metrics, logs
 
@@ -78,5 +80,7 @@ tools, frameworks, accelerators in platforms and infrastructure-as-code.
 [crane](https://github.com/google/go-containerregistry/blob/master/cmd/crane/doc/crane.md) registry management  
 [aws-service-operator](https://github.com/awslabs/aws-service-operator) service broker  
 [kubespy](https://github.com/pulumi/kubespy)  
+
+[kube-ps1](https://github.com/jonmosco/kube-ps1) prompt tool  
 
 an evolving list...
