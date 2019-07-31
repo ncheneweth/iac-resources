@@ -80,7 +80,20 @@ tools, frameworks, accelerators in platforms and infrastructure-as-code.
 [crane](https://github.com/google/go-containerregistry/blob/master/cmd/crane/doc/crane.md) registry management  
 [aws-service-operator](https://github.com/awslabs/aws-service-operator) service broker  
 [kubespy](https://github.com/pulumi/kubespy)  
+[envconsul](https://github.com/hashicorp/envconsul)
+
 
 [kube-ps1](https://github.com/jonmosco/kube-ps1) prompt tool  
+
+
+#### evaluating
+
+Using in various situations to evaluate effectiveness/efficiency/quality, etc.  
+
+[popeye](https://github.com/derailed/popeye)
+[kube-score](https://github.com/zegl/kube-score)
+
+[grit](https://github.com/grailbio/grit)
+[kubefwd](https://github.com/txn2/kubefwd)
 
 an evolving list...
