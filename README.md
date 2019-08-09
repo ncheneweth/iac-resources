@@ -3,6 +3,17 @@ tools, frameworks, accelerators, and _learnings_ in platforms and infrastructure
 
 ### Bills you will pay  
 
+Architect infrastructure code in modular, multi-repo, multi-pipeline _Domain_ bounded patterns. Rationales for not  
+doing so are anti-patterns.  
+
+because...
+* comprehension
+* blast radius
+* testability
+* rbac
+* velocity
+
+
 Scope always includes:
 * Tests: with each commit and nightly (everything not tested should be considered broken)
 * Security: Encryption at rest and in transit, secure secrets management including rotation, automated Auth N and Z, server-OS hardening
@@ -21,9 +32,11 @@ Scope always includes:
 -every client will say, "we can don't have to have to that at the start." But by the first milestone will simultaneously  
 expect that it be done and deny that it was every agreed to defer...no matter what is written down.
 
-For each story, [Definition of Done](definition_of_done.md)  
+-for each story -> [Definition of Done](definition_of_done.md)  
 
-And, you may think that you won't have to [shave](https://seths.blog/2005/03/dont_shave_that) that, but you will...
+-infrastructure code without automated tests is broken, usually
+
+-and, you may think that you won't have to [shave](https://seths.blog/2005/03/dont_shave_that) that, but you will...
 
 
 :cloud:  :wrench:  :whale:  :octocat:  
