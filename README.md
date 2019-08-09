@@ -1,5 +1,30 @@
 # infrastructure-as-code resources
-tools, frameworks, accelerators in platforms and infrastructure-as-code.  
+tools, frameworks, accelerators, and _learnings_ in platforms and infrastructure-as-code.  
+
+### Bills you will pay  
+
+Scope always includes:
+* Tests: with each commit and nightly (everything not tested should be considered broken)
+* Security: Encryption at rest and in transit, secure secrets management including rotation, automated Auth N and Z, server-OS hardening
+* Identity: Security Groups, IAM permissions, SSO
+* Networking: VPC, subnets, eip, natgw, transitgw, firewalls, DNS, ssh access, PVN/direct connect
+* Provisioning: managed services, instances, load balancers, storage
+* Software Installation and Configuration: deployments (zero-downtime, B/G, Canary), dependencies, environment config management
+* Resiliency and Availability: Zones, regions, master/slave, scalability (both vertical and horizontal), disaster recovery
+* Observability: Comprehensive aggregated logging, metrics covering - health, performance, events, tracing, all in terms of the business purposes prompting investment, and with comprehensive monitoring/alerting.
+* Documentation: Architecture, conventions, practices, incident runbooks, and knowledge transfer
+* Preservation of Investment: Culture of refactoring, maintaining current version of software/tools/best practices, technical Debt is tracked(socialized)/estimated/prioritized (irresponsible not to, frankly)
+* Backups: Databases, caches, stores, replication
+* Cost Optimization: Justifying level of observability, instance sizing, reserved vs spot, utilization levels, cleanup of underused resources
+*  - arguably among the top priorities
+
+-every client will say, "we can don't have to have to that at the start." But by the first milestone will simultaneously  
+expect that it be done and deny that it was every agreed to defer...no matter what is written down.
+
+For each story, [Definition of Done](definition_of_done.md)  
+
+And, you may think that you won't have to [shave](https://seths.blog/2005/03/dont_shave_that) that, but you will...
+
 
 :cloud:  :wrench:  :whale:  :octocat:  
 
@@ -60,6 +85,7 @@ tools, frameworks, accelerators in platforms and infrastructure-as-code.
 
 #### languages, testing, and develop frameworks
 
+[stern](https://github.com/wercker/stern)
 [ShellCheck](https://github.com/koalaman/shellcheck) shell script inspection  
 [inspec](https://www.inspec.io)  
 [awspec](https://github.com/k1LoW/awspec)  
