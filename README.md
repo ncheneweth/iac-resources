@@ -17,37 +17,43 @@ Architect your infrastructure code in modular, multi-repo, multi-pipeline _Domai
 loose coupling both between these pipelines and amongst the technologies and capabilities delivered. Rationales for not  
 doing so are nearly always anti-patterns (and expensive).  
 
-because the following characteristics must be maintained...  
-* constrain complexity
+because the following characteristics must be sustained...  
+* constrains complexity
 * comprehension
 * blast radius
 * testability
 * rbac
 * velocity
 
+...and even though you can feel the impact of loosing these traits in any architecture, within distributed compute there  
+is an amplifier effect. Imagine the tech debt analogies, but with a 28% interest rate instead of %12.5 :smirk:
 
 Scope always includes (_whether you want it to or not_):
 * Tests: with each commit and nightly (everything not tested should be considered broken)
-* Security: Encryption at rest and in transit, Auth N and Z, secure secrets management including rotation, configuration hardening
-* Identity: Security Groups, IAM permissions, SSO
-* Networking: VPC, subnets, eip, natgw, transitgw, firewalls, DNS, ssh access, PVN/direct connect
-* Provisioning: managed services, instances, load balancers, storage
+* Security: Encryption at rest and in transit, Auth N and Z, secure secrets management including rotation, configuration hardening, audit logging
+* Identity: Security Groups, IAM permissions, SSO, DNS
+* Networking: VPC, subnets, eip, natgw, transitgw, firewalls, DNS, ssh access, VPN/direct connect
+* Provisioning: managed services, instances, storage, load balancers, firewalls
 * Software Installation and Configuration: deployments (zero-downtime, B/G, Canary), dependencies, environment config management
 * Resiliency and Availability: Zones, regions, master/slave, scalability (both vertical and horizontal), disaster recovery
-* Observability: Comprehensive aggregated logging, metrics covering - health, performance, events, tracing, all in terms of the business purposes prompting investment, and with comprehensive monitoring/alerting.
-* Documentation: Architecture, conventions, practices, incident runbooks (though limited in comparison), and knowledge transfer
-* Preservation of Investment: Culture of refactoring, maintaining current version of software/tools/best practices, technical Debt is tracked(socialized)/estimated/prioritized (irresponsible not to, frankly)
+* Observability: Comprehensive aggregated logging, metrics covering - health, performance, events, tracing, including in terms of the business purposes guiding investment, and with comprehensive monitoring/alerting.
+* Documentation: Architecture, conventions, practices, incident runbooks, and knowledge transfer
+* for each story: [Definition of Done](definition_of_done.md)
+* Preservation of Investment: Culture of refactoring, maintaining current version of software/tools/best practices, technical Debt is tracked(socialized)/estimated/prioritized (irresponsible not to)
 * Backups: Databases, caches, stores, replication
 * Cost Optimization: Justifying level of observability, instance sizing, reserved vs spot, utilization levels, cleanup of underused resources - arguably among the top priorities
 
--every client may say, "we don't have to have to that at the start." But be cautious - by the first milestone can simultaneously  
+> A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be made to work. You have to start over, beginning with a working simple system. - John Gall
+
+> “You don’t have to be an engineer (infrastructure engineer) to be be a racing driver (software developer), but you do have to have Mechanical Sympathy.” - Jackie Stewart (inserted to show application in platform setting)
+
+> infrastructure code without automated tests is broken
+
+> every client may say, "we don't have to have to that at the start." But be cautious - by the first milestone can simultaneously  
 expect that it be done and not remember every agreeing to defer...no matter what is written down.
 
--for each story -> [Definition of Done](definition_of_done.md)  
 
--infrastructure code without automated tests is broken
-
--and, you may think that you won't have to [shave](https://seths.blog/2005/03/dont_shave_that) that, but you will...
+_and, you may think that you won't have to [shave](https://seths.blog/2005/03/dont_shave_that) that, but you will..._
 
 
 :cloud:  :wrench:  :whale:  :octocat:  
@@ -82,6 +88,7 @@ expect that it be done and not remember every agreeing to defer...no matter what
 #### monitoring, metrics, logs
 
 [datadog](https://datadoghq.com)  
+[honeycomb](https://www.honeycomb.io)  
 [logzio](https://logz.io)  
 [prometheus](https://prometheus.io)  
 [fluentd](https://www.fluentd.org)  
@@ -163,7 +170,6 @@ expect that it be done and not remember every agreeing to defer...no matter what
     warp                           Sync and execute local files in Pod  
     who-can                        like can-i but evaluates who at a permission level                           
 
-
 #### evaluating
 
 Using in various situations to evaluate effectiveness/efficiency/quality, etc.  
@@ -177,3 +183,5 @@ Using in various situations to evaluate effectiveness/efficiency/quality, etc.
 [harbor](https://goharbor.io) self-managed container registry with quay.io-like features  
 
 an evolving list...
+
+_[brief comments about selected items above](./comments.md)_
