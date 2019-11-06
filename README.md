@@ -135,50 +135,49 @@ _and, you may think that you won't have to [shave](https://seths.blog/2005/03/do
 [homebrew](https://brew.sh)
 [nevergreen](https://nevergreen.io)  
 [smashing](https://smashing.github.io)  
-[ark](https://github.com/heptio/ark)  
+[velero](https://github.com/heptio/velero) _formerly_ ark
 [container-structure-test](https://github.com/GoogleContainerTools/container-structure-test)  
 [moby](https://github.com/moby)  
-[terratest](https://github.com/gruntwork-io/terratest)  
-[dice](https://github.com/dmathieu/dice) roll all nodes, zero-dt  
-[crane](https://github.com/google/go-containerregistry/blob/master/cmd/crane/doc/crane.md) registry management  
 [aws-service-operator](https://github.com/awslabs/aws-service-operator) service broker  
 [kubespy](https://github.com/pulumi/kubespy)  
 [envconsul](https://github.com/hashicorp/envconsul)
 
-
 [kube-ps1](https://github.com/jonmosco/kube-ps1) prompt tool  
 [krew](https://github.com/kubernetes-sigs/krew/) kubectl plugin manager    
-    _useful_  
-    access-matrix                  Show an access matrix for server resources  
-    config-cleanup                 Automatically clean up your kubeconfig  
-    exec-as                        Like kubectl exec, but offers a `user` flag to ...  
-    get-all                        Like 'kubectl get all', but _really_ everything      
-    iexec                          Interactive selection tool for `kubectl exec`      
-    kubesec-scan                   Scan Kubernetes resources with kubesec.io.         
-    match-name                     Match names of pods and other API objects          
-    mtail                          Tail logs from multiple pods matching label sel...  
-    oidc-login                     Login for OpenID Connect authentication            
-    pod-logs                       Display a list of pods to get logs from            
-    pod-shell                      Display a list of pods to execute a shell in       
-    rbac-lookup                    Reverse lookup for RBAC                            
-    rbac-view                      A tool to visualize your RBAC permissions.         
-    resource-capacity              Provides an overview of resource requests, limi...  
-    restart                        Restarts a pod with the given name                 
-    view-secret                    Decode secrets                                     
-    view-serviceaccount-kubeconfig Show a kubeconfig setting to access the apiserv...  
-    view-utilization               Shows cluster cpu and memory utilization           
-    warp                           Sync and execute local files in Pod  
-    who-can                        like can-i but evaluates who at a permission level                           
+(_some useful plugins_)  
+- access-matrix                  Show an access matrix for server resources  
+- config-cleanup                 Automatically clean up your kubeconfig  
+- exec-as                        Like kubectl exec, but offers a `user` flag to ...  
+- get-all                        Like 'kubectl get all', but _really_ everything      
+- iexec                          Interactive selection tool for `kubectl exec`      
+- kubesec-scan                   Scan Kubernetes resources with kubesec.io.         
+- match-name                     Match names of pods and other API objects          
+- mtail                          Tail logs from multiple pods matching label sel...  
+- oidc-login                     Login for OpenID Connect authentication            
+- pod-logs                       Display a list of pods to get logs from            
+- pod-shell                      Display a list of pods to execute a shell in       
+- rbac-lookup                    Reverse lookup for RBAC                            
+- rbac-view                      A tool to visualize your RBAC permissions.         
+- resource-capacity              Provides an overview of resource requests, limi...  
+- restart                        Restarts a pod with the given name                 
+- view-secret                    Decode secrets                                     
+- view-serviceaccount-kubeconfig Show a kubeconfig setting to access the apiserv...  
+- view-utilization               Shows cluster cpu and memory utilization           
+- warp                           Sync and execute local files in Pod  
+- who-can                        like can-i but evaluates who at a permission level                           
 
 #### evaluating
 
 Using in various situations to evaluate effectiveness/efficiency/quality, etc.  
 
+[prow](https://github.com/kubernetes/test-infra/tree/master/prow)
 [popeye](https://github.com/derailed/popeye)  
 [kube-score](https://github.com/zegl/kube-score)  
 [squash](https://github.com/solo-io/squash)  
 [grit](https://github.com/grailbio/grit)  
+[terratest](https://github.com/gruntwork-io/terratest)  
 [kubefwd](https://github.com/txn2/kubefwd)  
+[dice](https://github.com/dmathieu/dice) roll all nodes, zero-dt  
 
 [harbor](https://goharbor.io) self-managed container registry with quay.io-like features  
 
