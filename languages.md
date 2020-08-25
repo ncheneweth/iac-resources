@@ -1,6 +1,10 @@
 # language specific frameworks and accelerators
 
-
+<div align="center">
+  <h5>Writing CI tests after you write the code</h5>
+  <img alt="ci" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/tests.gif" />
+</div>
+<br />
 
 ## markup and serialization
 [yamllint](https://pypi.org/project/yamllint/)  

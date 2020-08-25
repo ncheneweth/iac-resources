@@ -40,6 +40,11 @@ Scope always includes (_whether you want it to or not_):
 
 _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005/03/dont_shave_that), but it isn't._
 
+<div align="center">
+  <h5>"Tech debt coming loose</h5>
+  <img alt="silos" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/techdebt.gif" />
+</div>
+<br />
 
 #### notable quotes (some attributed)
 
@@ -52,14 +57,20 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 > every client, "we don't have to have to that at the start." (But by the first milestone will simultaneously expect that it be done and not remember every agreeing to defer...even if it is written down.
 
 <div align="center">
-  <h2>"But, I </h2>
-  tools, frameworks, accelerators, and _learnings_ in infrastructure-as-code and building platforms
+  <h5>"Dev to QA, QA to Ops within functional silos</h5>
+  <img alt="silos" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/silos.gif" />
 </div>
 <br />
 
 ## Resources  
 
 #### Working with IaaS or Cloud providers :cloud:
+
+<div align="center">
+  <h5>Using SDKs and APIs in unintended ways</h5>
+  <img alt="framework" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/frameworks.gif" />
+</div>
+<br />
 
 [terraform](https://www.terraform.io)  
 [aws-cli](https://docs.aws.amazon.com/cli/latest/userguide/installing.html)  
@@ -84,10 +95,12 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 
 #### containers and service orchestration :whale:
 
+
+
+[kubernetes](https://kubernetes.io)  
 [docker](https://docs.docker.com)  
 [kops](https://github.com/kubernetes/kops)  
 [kubespray](https://github.com/kubernetes-sigs/kubespray)
-[kubernetes](https://kubernetes.io)  
 [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 [istio](https://github.com/istio/istio)  
 [spiffe](https://spiffe.io)  
@@ -96,6 +109,12 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 [kubectx](https://github.com/ahmetb/kubectx)   
 
 #### monitoring, metrics, logs :stopwatch:
+
+<div align="center">
+  <h5>Checking the firewall syslogs</h5>
+  <img alt="firewall" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/firewall.gif" />
+</div>
+<br />
 
 [datadog](https://datadoghq.com)  
 [honeycomb](https://www.honeycomb.io)  
@@ -125,6 +144,12 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 
 #### languages, testing, and develop frameworks :desktop_computer:
 
+<div align="center">
+  <h5>Seeing the new UI the dev team deployed last night</h5>
+  <img alt="ux" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/ux.gif" />
+</div>
+<br />
+
 [awspec](https://github.com/k1LoW/awspec)  
 [inspec](https://www.inspec.io)  
 [bats](https://github.com/bats-core/bats-core/blob/v1.2.0/README.md)  
@@ -135,6 +160,12 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 
 #### misc :wrench:  
 
+<div align="center">
+  <h5>Trying to tune the performance test while it's running</h5>
+  <img alt="DevsOpenShift" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/load.gif" />
+</div>
+<br />
+
 [stern](https://github.com/wercker/stern)  
 [homebrew](https://brew.sh)  
 [nevergreen](https://nevergreen.io)  
@@ -144,6 +175,12 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 [moby](https://github.com/moby)  
 [kubespy](https://github.com/pulumi/kubespy)  
 [envconsul](https://github.com/hashicorp/envconsul)  
+
+<div align="center">
+  <h5>Doing normal things while SELinux is active</h5>
+  <img alt="firewall" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/selinux.gif" />
+</div>
+<br />
 
 [krew](https://github.com/kubernetes-sigs/krew/) kubectl plugin manager    
 (_some useful plugins_)  
@@ -170,6 +207,12 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 
 #### evaluating
 
+<div align="center">
+  <h5>VMWare sales engineer demonstrating Tanzu running on AWS</h5>
+  <img alt="demo" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/demo.gif" />
+</div>
+<br />
+
 currently evaluating the effectiveness/efficiency/quality, etc.  
 
 [prow](https://github.com/kubernetes/test-infra/tree/master/prow)  
@@ -182,3 +225,10 @@ currently evaluating the effectiveness/efficiency/quality, etc.
 an evolving list...
 
 _[brief comments about selected items above](./comments.md)_
+
+
+<div align="center">
+  <h5>Dev Team the first time they participate in Game Day</h5>
+  <img alt="demo" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/gameday.gif" />
+</div>
+<br />
