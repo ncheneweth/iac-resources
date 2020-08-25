@@ -77,6 +77,7 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 [circleci](https://circleci.com)  
 [buildkite](https://buildkite.com)  
 [consul](https://www.consul.io/)  
+[secrethub]https://secrethub.io)  
 [vault](https://www.vaultproject.io)  
 [packer](https://www.packer.io)  
 

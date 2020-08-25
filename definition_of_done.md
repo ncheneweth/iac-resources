@@ -11,5 +11,5 @@ For each Story:
 1. Resilient (effectively usable in _failed_ state, actual state will self-correct to desired state)
 1. Technical Debt decisions turned into stories, estimated, prioritized
 1. Persistent data backed-up with appropriate frequency, restores part of game-day
-1. Domain included in game-day (on rotation)
+1. All Domains included in game-day (on rotation)
 1. Refactor agressively, but use peer-review to avoid [shaving yaks](https://seths.blog/2005/03/dont_shave_that)
