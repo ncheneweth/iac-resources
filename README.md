@@ -156,9 +156,6 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 [nevergreen](https://nevergreen.io)  
 [smashing](https://smashing.github.io)  
 [velero](https://github.com/heptio/velero) _formerly_ ark  
-[container-structure-test](https://github.com/GoogleContainerTools/container-structure-test)  
-[moby](https://github.com/moby)  
-[kubespy](https://github.com/pulumi/kubespy)  
 [envconsul](https://github.com/hashicorp/envconsul)  
 
 <div align="center">
