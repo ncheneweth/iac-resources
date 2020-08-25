@@ -71,7 +71,7 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 
 <div align="center">
   <h5>Developer being told IT is buying OpenShift</h5>
-  <img alt="SecOps" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/devs.gif" />
+  <img alt="DevsOpenShift" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/devs.gif" />
 </div>
 <br />
 
