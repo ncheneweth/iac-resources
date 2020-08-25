@@ -41,7 +41,7 @@ Scope always includes (_whether you want it to or not_):
 _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005/03/dont_shave_that), but it isn't._
 
 <div align="center">
-  <h5>"Tech debt coming loose</h5>
+  <h4>Tech debt coming loose</h4>
   <img alt="silos" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/techdebt.gif" />
 </div>
 <br />
@@ -57,7 +57,7 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 > every client, "we don't have to have to that at the start." (But by the first milestone will simultaneously expect that it be done and not remember every agreeing to defer...even if it is written down.
 
 <div align="center">
-  <h5>"Dev to QA, QA to Ops within functional silos</h5>
+  <h5>Dev to QA, QA to Ops within functional silos</h5>
   <img alt="silos" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/silos.gif" />
 </div>
 <br />
@@ -66,19 +66,19 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 
 #### Working with IaaS or Cloud providers :cloud:
 
-<div align="center">
-  <h5>Using SDKs and APIs in unintended ways</h5>
-  <img alt="framework" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/frameworks.gif" />
-</div>
-<br />
-
 [terraform](https://www.terraform.io)  
 [aws-cli](https://docs.aws.amazon.com/cli/latest/userguide/installing.html)  
 [boto3](https://boto3.readthedocs.io/en/latest/)  
 [gcloud](https://cloud.google.com/sdk/install)  
-[auth0](https://auth0.com)  
 
 #### build and deploy :octocat:
+
+[github](https://github.com)  
+[circleci](https://circleci.com)  
+[buildkite](https://buildkite.com)  
+[consul](https://www.consul.io/)  
+[vault](https://www.vaultproject.io)  
+[packer](https://www.packer.io)  
 
 <div align="center">
   <h5>Developer being told IT is buying OpenShift</h5>
@@ -86,35 +86,18 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 </div>
 <br />
 
-[github](https://github.com)
-[circleci](https://circleci.com)  
-[buildkite](https://buildkite.com)  
-[consul](https://www.consul.io/)  
-[vault](https://www.vaultproject.io)  
-[packer](https://www.packer.io)  
-
 #### containers and service orchestration :whale:
-
-
 
 [kubernetes](https://kubernetes.io)  
 [docker](https://docs.docker.com)  
 [kops](https://github.com/kubernetes/kops)  
-[kubespray](https://github.com/kubernetes-sigs/kubespray)
-[kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+[kubespray](https://github.com/kubernetes-sigs/kubespray)  
+[kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)  
 [istio](https://github.com/istio/istio)  
 [spiffe](https://spiffe.io)  
-[coreDNS](https://coredns.io) 
-
-[kubectx](https://github.com/ahmetb/kubectx)   
+[coreDNS](https://coredns.io)  
 
 #### monitoring, metrics, logs :stopwatch:
-
-<div align="center">
-  <h5>Checking the firewall syslogs</h5>
-  <img alt="firewall" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/firewall.gif" />
-</div>
-<br />
 
 [datadog](https://datadoghq.com)  
 [honeycomb](https://www.honeycomb.io)  
@@ -123,14 +106,15 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 [fluentd](https://www.fluentd.org)  
 [cachet](https://github.com/CachetHQ/Cachet)  
 
-#### validation and governance :classical_building:
-
 <div align="center">
-  <h5>SecOps arriving at the meeting</h5>
-  <img alt="SecOps" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/secops.gif" />
+  <h5>Checking the firewall syslogs</h5>
+  <img alt="firewall" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/firewall.gif" />
 </div>
 <br />
 
+#### validation and governance :classical_building:
+
+[auth0](https://auth0.com)  
 [styra](https://www.styra.com)  
 [open policy agent](https://www.openpolicyagent.org)  
 [twistlock](https://twistlock.com)  
@@ -142,13 +126,13 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 [kubernetes-policy-controller](https://github.com/Azure/kubernetes-policy-controller)  
 [kube-hunter](https://github.com/aquasecurity/kube-hunter)  
 
-#### languages, testing, and develop frameworks :desktop_computer:
-
 <div align="center">
-  <h5>Seeing the new UI the dev team deployed last night</h5>
-  <img alt="ux" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/ux.gif" />
+  <h5>SecOps arriving at the meeting</h5>
+  <img alt="SecOps" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/secops.gif" />
 </div>
 <br />
+
+#### languages, testing, and develop frameworks :desktop_computer:
 
 [awspec](https://github.com/k1LoW/awspec)  
 [inspec](https://www.inspec.io)  
@@ -158,13 +142,13 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 [ShellCheck](https://github.com/koalaman/shellcheck)  
 ... too long, continue to [local and pipeline tools](./languages.md) for extensive language, GPL, DSL, and related tools  
 
-#### misc :wrench:  
-
 <div align="center">
-  <h5>Trying to tune the performance test while it's running</h5>
-  <img alt="DevsOpenShift" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/load.gif" />
+  <h5>Seeing the new UI the dev team deployed last night</h5>
+  <img alt="ux" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/ux.gif" />
 </div>
 <br />
+
+#### misc :wrench:  
 
 [stern](https://github.com/wercker/stern)  
 [homebrew](https://brew.sh)  
@@ -225,7 +209,6 @@ currently evaluating the effectiveness/efficiency/quality, etc.
 an evolving list...
 
 _[brief comments about selected items above](./comments.md)_
-
 
 <div align="center">
   <h5>Dev Team the first time they participate in Game Day</h5>

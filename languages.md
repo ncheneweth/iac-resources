@@ -16,6 +16,7 @@
 
 ## general local development
 
+[kubectx](https://github.com/ahmetb/kubectx)  
 [hyperkit]
 [minikube]
 [oh-my-zsh]
