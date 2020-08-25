@@ -102,7 +102,7 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 
 <div align="center">
   <h5>SecOps arriving at the meeting</h5>
-  <img alt="SecOps" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/secops.gif?sanitize=true" width="75" />
+  <img alt="SecOps" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/secops.gif" />
 </div>
 <br />
 
