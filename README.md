@@ -136,6 +136,7 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 
 #### languages, testing, and develop frameworks :desktop_computer:
 
+[operator-sdk](https://sdk.operatorframework.io)  
 [awspec](https://github.com/k1LoW/awspec)  
 [inspec](https://www.inspec.io)  
 [bats](https://github.com/bats-core/bats-core/blob/v1.2.0/README.md)  
@@ -203,7 +204,6 @@ currently evaluating the effectiveness/efficiency/quality, etc.
 [grit](https://github.com/grailbio/grit)  
 [kubefwd](https://github.com/txn2/kubefwd)  
 [dice](https://github.com/dmathieu/dice)   
-[harbor](https://goharbor.io) self-managed container registry with quay.io-like features  
 
 an evolving list...
 
