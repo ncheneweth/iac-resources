@@ -1,17 +1,17 @@
 <div align="center">
   <h2>Resources for software defined infrastructure</h2>
-  tools, frameworks, accelerators, and _learnings_ in infrastructure-as-code and building platforms
+  tools, frameworks, accelerators, and learnings in infrastructure-as-code and building platforms
 </div>
 <br />
 
 
 ### you can learn these the hard way, but i don't recommend it  
 
-Saying, "the tools don't matter" means - no tool can overcome a regressive culture or process. It does **NOT** mean all tools can deliver equal result. Used in a supporting culture and with effective team organization and empowerment, certain tools delivery dramatically better results (velocity, sustainability, reliability, cost).  
+Saying, "the tools don't matter" means - no tool can overcome a regressive culture or process. It does **NOT** mean all tools can deliver equal result. Used in a supporting culture and with effective team organization and empowerment, certain tools deliver dramatically better results (velocity, sustainability, reliability, cost).  
 
 _Everything_ is an Architectural concern.  
 
-"Automation" does not mean Infrastructure as Code ("IaC"). IaC is using test-driven development in the continuous integration and delivery of infrastructure. Use IaC if you want to delivery infrastructure that is resilient, secure and capable of safe continuous change (change at scale).  
+"Automation" is not the same thing as Infrastructure as Code ("IaC"). IaC is using test-driven development in the continuous integration and delivery of infrastructure. Use IaC if you want to deliver infrastructure that is resilient, secure and capable of safe continuous change (change at scale).  
 
 Architect your infrastructure code in modular, multi-repo, multi-pipeline _Domain_ bounded patterns, striving to maintain loose coupling both between these pipelines and amongst the technologies and capabilities delivered. Most rationales for not doing so are nearly always anti-patterns (and expensive).  
 
@@ -22,7 +22,7 @@ In building Platforms the following [characteristics](in-building-platforms.md) 
 * idp integrated rbac
 * agility
 
-Even though you can feel the impact of failing to maintain those traits in any architecture, within distributed compute there is an amplifier effect. Imagine the tech debt analogies, but with a 50% interest rate instead of %12.5 :smirk:
+Even though you can feel the impact of failing to maintain those traits in any architecture, within distributed compute there is an amplifier effect. Imagine the tech debt analogies, but with a 50% interest rate instead of %18.5 :smirk:
 
 Scope always includes (_whether you want it to or not_):
 * Tests: with each commit and nightly (everything not tested should be considered broken)
@@ -38,7 +38,7 @@ Scope always includes (_whether you want it to or not_):
 * Backups: e.g., loose data, loose  your job
 * Cost Optimization: Justifying level of observability, instance sizing, reserved vs spot, utilization levels, cleanup of underused resources - arguably among the top priorities
 
-_to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005/03/dont_shave_that), but it isn't._
+_to the un-initiated, refactoring looks like [yak shaving](https://seths.blog/2005/03/dont_shave_that), but it isn't._
 
 <div align="center">
   <h4>Tech debt coming loose</h4>
@@ -54,13 +54,15 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 
 > "infrastructure code without automated tests is broken"
 
-> every client, "we don't have to have to that at the start." (But by the first milestone will simultaneously expect that it be done and not remember every agreeing to defer...even if it is written down.
+> every manager, "we don't have to have to that at the start." (But by the first milestone will simultaneously expect that it be done and not remember agreeing to defer...even if it is in writing.)
 
 <div align="center">
   <h5>Dev to QA, QA to Ops within functional silos</h5>
   <img alt="silos" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/silos.gif" />
 </div>
 <br />
+
+[Reading List](reading_list.md)  
 
 ## Resources  
 
@@ -94,10 +96,8 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 [docker](https://docs.docker.com)  
 [kops](https://github.com/kubernetes/kops)  
 [kubespray](https://github.com/kubernetes-sigs/kubespray)  
-[kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)  
 [istio](https://github.com/istio/istio)  
 [spiffe](https://spiffe.io)  
-[coreDNS](https://coredns.io)  
 
 #### monitoring, metrics, logs :stopwatch:
 
@@ -125,7 +125,6 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 [kube-bench](https://github.com/aquasecurity/kube-bench)  
 [docker-bench](https://github.com/docker/docker-bench-security)  
 [hawkeye](https://github.com/hawkeyesec/scanner-cli)  
-[kubernetes-policy-controller](https://github.com/Azure/kubernetes-policy-controller)  
 [kube-hunter](https://github.com/aquasecurity/kube-hunter)  
 
 <div align="center">
@@ -192,12 +191,12 @@ _to the un-experienced, refactoring looks like [shaving](https://seths.blog/2005
 #### evaluating
 
 <div align="center">
-  <h5>VMWare sales engineer demonstrating Tanzu running on AWS</h5>
+  <h5>Sales engineer demonstrating their product</h5>
   <img alt="demo" src="https://raw.githubusercontent.com/ncheneweth/iac-resources/master/img/demo.gif" />
 </div>
 <br />
 
-currently evaluating the effectiveness/efficiency/quality, etc.  
+evaluating the effectiveness/efficiency/quality, etc.  
 
 [prow](https://github.com/kubernetes/test-infra/tree/master/prow)  
 [squash](https://github.com/solo-io/squash)  
